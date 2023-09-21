@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт с часами</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrapper {
+
+            max-width: 1026px;
+            margin: 0 auto;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header {
+            background-color: #fafafa;
+            height: 50px;
+        }
+
+        .banner img {
+            height: 270px;
+        }
+
+        .menu {
+            margin: 10px 0;
+            height: 40px;
+            font-size: 18px;
+            line-height: 41px;
+        }
+
+        .menu img {
+            float: left;
+            margin-left: 30px;
+            height: 40px;
+        }
+
+        .menu nav {
+            float: right;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            margin-left: 22px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        .menu p {
+            float: right;
+            margin-left: 20px;
+            font-weight: 700;
+        }
+
+        .ba {
+            height: 200px;
+            background-size: 1026px;
+        }
+
+        h2 {
+            margin: 30px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .br .prod-elements,
+        .clock .content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .prod {
+            width: 230px;
+            height: 350px;
+            text-align: center;
+            margin-top: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .prod-elements {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 1028px;
+        }
+
+        .clock .prod-elements div p {
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .clock .prod-elements div img {
+            height: 220px;
+            margin-top: 10px;
+        }
+
+        .qqq {
+            height: 250px;
+            background-color: #800202;
+            color: #fff;
+            padding: 0 120px;
+        }
+
+        .qqq form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .qqq h3 {
+            padding-top: 75px;
+            text-align: start;
+            margin-left: 0;
+        }
+
+        .qqq input {
+            background-color: white;
+            padding: 10px 10px;
+            color: #b8b5b5;
+            border-radius: 5px;
+            border: none;
+            width: 235px;
+            font-size: 14pt;
+        }
+
+        .qqq button {
+            border-radius: 5px;
+            padding: 10px 10px;
+            text-transform: uppercase;
+            width: 235px;
+            border: 1px solid white;
+            color: white;
+            background-color: #640d0d;
+            font-size: 14pt;
+        }
+
+        .text p {
+            padding: 0 100px 40px;
+        }
+
+        footer {
+            background-color: black;
+            height: 50px;
+            text-align: center;
+            color: white;
+            padding-top: 22px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="menu">
+                <img src="foto/image 1.png" alt="3.1">
+                <nav>
+                    <ul>
+                        <li><a href="">Бренды</a></li>
+                        <li><a href="">Наручные часы</a></li>
+                        <li><a href="">Скидки</a></li>
+                        <li><a href="">Магазины</a></li>
+                        <li><a href=""><strong>8(800)700-31-15</strong></a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="banner">
+            <img src="foto/image 2.png" alt="">
+        </div>
+        <div class="ba"></div>
+        <section class="br">
+            <h2>Бренды</h2>
+            <div class="prod-elements">
+                <div>
+                    <img src="foto/image 7.png" alt="">
+                </div>
+                <div>
+                    <img src="foto/image 8.png" alt="">
+                </div>
+                <div>
+                    <img src="foto/image 9.png" alt="">
+                </div>
+                <div>
+                    <img src="foto/image 7.png" alt="">
+                </div>
+                <div>
+                    <img src="foto/image 8.png" alt="">
+                </div>
+                <div><img src="foto/image 7.png" alt=""></div>
+            </div>
+        </section>
+        <section class="clock">
+            <h2>Наручные часы</h2>
+            <div class="prod-elements">
+                <div class="prod">
+                    <img src="foto/image 3.png" alt="">
+                    <p>Lee Cooper</p>
+                    <p><del>4650 р.</del></p>
+                    <p>3650р.</p>
+                </div>
+                <div class="prod">
+                    <img src="foto/image 4.png" alt="">
+                    <p>Lee Cooper</p>
+                    <p><del>11650 р.</del></p>
+                    <p>5850р.</p>
+                </div>
+                <div class="prod">
+                    <img src="foto/image 5.png" alt="">
+                    <p>Lee Cooper</p>
+                    <p><del>6650 р.</del></p>
+                    <p>3530р.</p>
+                </div>
+                <div class="prod">
+                    <img src="foto/image 6.png" alt="">
+                    <p>Lee Cooper</p>
+                    <p><del>5650 р.</del></p>
+                    <p>2630р.</p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="qqq">
+            <h3>подпишись на акции и скидки</h3> <br>
+            <p>Будьте в курсе новых поступлений, а также акций и скидок, подготовленных специально для вас</p><br>
+            <form action="">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Почта">
+                <button type="submit">Подписаться</button>
+            </form>
+        </section>
+        <section class="text">
+            <h2>Контакты</h2>
+            <p>Москва, ТРЦ Вегас, ул. Каширское шоссе/24 км МКАД, стр. 1<br>
+                Москва, СТЦ МЕГА, Белая Дача, ул. 1-й Покровский пр-д, д. 5<br>
+                Москва, ТРЦ РИО, ул. Дмитровское шоссе,д. 163А, корп.1<br>
+                Москва, Шоурум интернет-магазина, ул. Киевская, д.2, ст.м. Киевская<br> <br>
+                Екатеринбург, ТРЦ Радуга Парк, ул. Репина, д.94<br> <br>
+                Екатеринбург, ТРЦ Радуга Парк, ул. Репина, д.94 <br> <br>
+                Краснодар, ТРЦ Красная площадь, ул. Дзержинского, д. 100</p>
+        </section>
+        <footer>
+            <p>©1997-2022 Салон часов 3-15. Все права защищены</p>
+        </footer>
+    </div>
+</body>
+
+</html>
